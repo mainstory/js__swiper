@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  background-color: #333;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.swiper {
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  display: inline-flex;
+}
+
+.slider__arrow-left {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+}
+.slider__arrow-left img {
+  max-width: 100%;
+}
+.slider__arrow-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+}
+.slider__arrow-right img {
+  max-width: 100%;
+}
+
+.slider-1 {
+  background-color: red;
+}
+
+.swiper-slide {
+  width: 300px;
+  height: 300px;
+}
+
+.slider-2 {
+  background-color: blue;
+}
+
+.slider-3 {
+  background-color: yellow;
+}
+
+.slider-4 {
+  background-color: green;
+}
+
+.slider-5 {
+  background-color: rgb(255, 102, 0);
+}
+
+.swiper-pagination {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-radius: 30px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: rgb(224, 39, 101);
+  cursor: pointer;
+}
